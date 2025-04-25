@@ -13,14 +13,14 @@ const App = () => {
   return (
     <PeliculasProvider>
       <div className="container mx-auto p-4">
-        <h1 className="text-3xl font-bold mb-4 text-center">Películas Gus</h1>
+        <h1 className="text-3xl font-bold mb-4 text-center">Películas Gusix</h1>
         <Filtros filtro={filtro} setFiltro={setFiltro} />
         <Formulario />
         <button
           onClick={() => setMostrarFavoritos(!mostrarFavoritos)}
           className="bg-purple-600 text-white px-4 py-2 rounded mb-4"
         >
-          {mostrarFavoritos ? "Mostrar Todas" : "Ver Favoritas"}
+          {mostrarFavoritos ? "Mostrar Todas" : "Ver mis Favoritas"}
         </button>
         {mostrarFavoritos ? (
           <Favoritos />
