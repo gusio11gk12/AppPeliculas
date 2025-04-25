@@ -13,7 +13,7 @@ const App = () => {
   return (
     <PeliculasProvider>
       <div className="container mx-auto p-4">
-        <h1 className="text-3xl font-bold mb-4 text-center">Gestor de Películas</h1>
+        <h1 className="text-3xl font-bold mb-4 text-center">Películas Gus</h1>
         <Filtros filtro={filtro} setFiltro={setFiltro} />
         <Formulario />
         <button
